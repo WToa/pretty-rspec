@@ -1,0 +1,2 @@
+--format PrettyRspec::Formatter
+--require pretty_rspec

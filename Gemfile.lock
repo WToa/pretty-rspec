@@ -1,0 +1,114 @@
+GIT
+  remote: https://github.com/esmarkowski/bubbles-ruby.git
+  revision: 96ade5141c55f454c3134bd36f7751628ea7dfaf
+  branch: no-path-gemfiles
+  specs:
+    bubbles (0.1.0)
+      bubbletea
+      harmonica
+      lipgloss
+
+GIT
+  remote: https://github.com/esmarkowski/charm-native.git
+  revision: 6450ecc676cb2128bfb9f15ad395c191836c17bb
+  specs:
+    charm-native (0.1.0)
+
+GIT
+  remote: https://github.com/esmarkowski/lipgloss-ruby.git
+  revision: 81dbf77f01c7f043b957116e2a8875cc343f54e2
+  branch: no-path-gemfiles
+  specs:
+    lipgloss (0.2.0)
+      charm-native (~> 0.1)
+
+PATH
+  remote: .
+  specs:
+    pretty_rspec (0.1.0)
+      bubbles
+      lipgloss
+      rspec-core (>= 3.0)
+      rspec-expectations (>= 3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubbletea (0.1.0)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-aarch64-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-aarch64-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-arm-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-arm-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-arm64-darwin)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-x86-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-x86-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-x86_64-darwin)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-x86_64-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.0-x86_64-linux-musl)
+      lipgloss (~> 0.1)
+    diff-lcs (1.6.2)
+    harmonica (0.1.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.7)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  bubbles!
+  charm-native!
+  lipgloss!
+  pretty_rspec!
+  rspec-mocks (>= 3.0)
+
+CHECKSUMS
+  bubbles (0.1.0)
+  bubbletea (0.1.0) sha256=9d2d63a7ab3acddacfae0985bcd629dc9ad902ee32c75420236dae199b2629d6
+  bubbletea (0.1.0-aarch64-linux-gnu) sha256=831b17a9ef036c246dea82b6738fd539b5b677c34eaba493e7d1b811e6615d7b
+  bubbletea (0.1.0-aarch64-linux-musl) sha256=f4844ab56fb0ae2ff535a2eda2f8a49d329e7c54b8e85b73101788518d536abe
+  bubbletea (0.1.0-arm-linux-gnu) sha256=f8cde9fc1d8cbef94bb21ca6625459f2ef59b883044920e1722591088c4371b6
+  bubbletea (0.1.0-arm-linux-musl) sha256=789eb173d6622c22338490ba7008dce4d3667e2c4b9affb9e53ce8b855c6c959
+  bubbletea (0.1.0-arm64-darwin) sha256=e131a2f336d814781ee93d414bed4edaf4c3cbfa35b4ea83ed37cc8a9f2a86cd
+  bubbletea (0.1.0-x86-linux-gnu) sha256=dc3100ccd9704aac9b68b5d9ad187ec8687fd2b055b7e533b069a8bf9010b129
+  bubbletea (0.1.0-x86-linux-musl) sha256=47d99ef0fa3363717b524b0d58f3cdda1eef5b9cc3725279ef4126f005761c3a
+  bubbletea (0.1.0-x86_64-darwin) sha256=2b8bb7c2d2a3141b6e2b23ae44428d4b016a58becc1c8383956dac4266adc986
+  bubbletea (0.1.0-x86_64-linux-gnu) sha256=5f771bd851a748fdf86863cf5f311f97278cb6b6f6320d4b0e2f31fec58a4335
+  bubbletea (0.1.0-x86_64-linux-musl) sha256=3f39524e6ec574a120626adcf283e1a4a02ca2dde47a57ff1b1bbc6c1fe2dcab
+  charm-native (0.1.0)
+  diff-lcs (1.6.2) sha256=9ae0d2cba7d4df3075fe8cd8602a8604993efc0dfa934cff568969efb1909962
+  harmonica (0.1.0) sha256=cb42a5c8fb00bc8f3d6a2c6e9a800c33a14cdbe12d528628a5bf10e5ba2f653a
+  lipgloss (0.2.0)
+  pretty_rspec (0.1.0)
+  rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
+  rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
+  rspec-mocks (3.13.7)
+  rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
+
+BUNDLED WITH
+  4.0.3
